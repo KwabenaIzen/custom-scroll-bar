@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: crimson;
+}
+.container div {
+  width: 600px;
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+  border: 1px dotted gray;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  border-radius: 100px;
+}
